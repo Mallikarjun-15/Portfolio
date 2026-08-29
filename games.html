@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play interactive browser games developed by Mallikarjun Ratkal. Experience Car Racing, Brick Breaker, and Tic-Tac-Toe built with Vanilla HTML, CSS, and JS.">
+    <title>My Games | Mallikarjun Ratkal Portfolio</title>
+    <!-- Google Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- STICKY HEADER NAVIGATION -->
+    <header id="header">
+        <nav class="nav-container" aria-label="Games Navigation">
+            <a href="index.html" class="logo">
+                <span class="logo-badge">MR</span>
+                <span>Mallikarjun</span>
+            </a>
+
+            <div class="header-controls">
+                <a href="index.html" class="btn btn-secondary btn-back-portfolio" style="margin-bottom: 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg>
+                    Back to Portfolio
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- GAMES SHOWCASE CONTENT -->
+    <main>
+        
+        <!-- GAMES HERO TITLE -->
+        <section class="games-hero">
+            <a href="index.html" class="btn btn-secondary btn-back-portfolio">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Back to Portfolio
+            </a>
+            <h1 class="section-title" style="display: block; margin-top: 1rem;">My Games</h1>
+            <p class="section-subtitle">A collection of interactive browser games built using HTML, CSS, and JavaScript.</p>
+        </section>
+
+        <!-- GAMES GRID -->
+        <section style="padding-top: 0;">
+            <div class="games-grid" id="games-container">
+                
+                <!-- GAME 1 -->
+                <div class="game-card">
+                    <div class="game-img-wrapper">
+                        <img src="images/car-racing-game.jpg" alt="Car Racing Game Screenshot" loading="lazy">
+                    </div>
+                    <div class="game-content">
+                        <h3 class="game-title">Car Racing Game</h3>
+                        <p class="game-desc">An interactive browser-based car racing game where players control a car, avoid obstacles, and aim to achieve the highest possible score.</p>
+                        
+                        <!-- Collapsible Details Button -->
+                        <details class="project-details">
+                            <summary class="btn-details-toggle">
+                                <span>View Features & Details</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </summary>
+                            <div class="project-features-dropdown">
+                                <div class="project-features-title">Core Features</div>
+                                <ul class="project-feature-list">
+                                    <li>Interactive gameplay</li>
+                                    <li>Car controls</li>
+                                    <li>Moving obstacles</li>
+                                    <li>Score tracking</li>
+                                    <li>Game over functionality</li>
+                                    <li>Restart game option</li>
+                                </ul>
+                            </div>
+                        </details>
+                        
+                        <div class="game-actions">
+                            <a href="https://mallikarjun-15.github.io/Car-Racing-Game/" class="btn btn-primary btn-play-game" style="width: 100%;" target="_blank" rel="noopener noreferrer">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                Play Game / Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GAME 2 -->
+                <div class="game-card">
+                    <div class="game-img-wrapper">
+                        <img src="images/brick-breaker-game.jpg" alt="Brick Breaker Game Screenshot" loading="lazy">
+                    </div>
+                    <div class="game-content">
+                        <h3 class="game-title">Brick Breaker Game</h3>
+                        <p class="game-desc">A classic interactive Brick Breaker game where players control a paddle to bounce the ball and break bricks.</p>
+                        
+                        <!-- Collapsible Details Button -->
+                        <details class="project-details">
+                            <summary class="btn-details-toggle">
+                                <span>View Features & Details</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </summary>
+                            <div class="project-features-dropdown">
+                                <div class="project-features-title">Core Features</div>
+                                <ul class="project-feature-list">
+                                    <li>Paddle controls</li>
+                                    <li>Ball movement</li>
+                                    <li>Brick collision detection</li>
+                                    <li>Score system</li>
+                                    <li>Increasing difficulty</li>
+                                    <li>Game over functionality</li>
+                                    <li>Restart option</li>
+                                </ul>
+                            </div>
+                        </details>
+                        
+                        <div class="game-actions">
+                            <a href="https://mallikarjun-15.github.io/brick-breaker-game/" class="btn btn-primary btn-play-game" style="width: 100%;" target="_blank" rel="noopener noreferrer">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                Play Game / Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GAME 3 -->
+                <div class="game-card">
+                    <div class="game-img-wrapper">
+                        <img src="images/tic-tac-toe-game.jpg" alt="Tic-Tac-Toe Game Screenshot" loading="lazy">
+                    </div>
+                    <div class="game-content">
+                        <h3 class="game-title">Tic-Tac-Toe Game</h3>
+                        <p class="game-desc">An interactive Tic-Tac-Toe game with a clean user interface where players can compete in a classic strategy game.</p>
+                        
+                        <!-- Collapsible Details Button -->
+                        <details class="project-details">
+                            <summary class="btn-details-toggle">
+                                <span>View Features & Details</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </summary>
+                            <div class="project-features-dropdown">
+                                <div class="project-features-title">Core Features</div>
+                                <ul class="project-feature-list">
+                                    <li>Interactive game board</li>
+                                    <li>Two-player gameplay</li>
+                                    <li>Winner detection</li>
+                                    <li>Draw detection</li>
+                                    <li>Score tracking</li>
+                                    <li>Restart game option</li>
+                                </ul>
+                            </div>
+                        </details>
+                        
+                        <div class="game-actions">
+                            <a href="https://mallikarjun-15.github.io/AI-Tic-Tac-Toe/" class="btn btn-primary btn-play-game" style="width: 100%;" target="_blank" rel="noopener noreferrer">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                Play Game / Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-copy">
+                &copy; 2026 Mallikarjun Ratkal. All rights reserved. | Built with HTML, CSS, and Vanilla JS
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/Mallikarjun-15" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/mallikarjun-ratkal-7a6123308" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
