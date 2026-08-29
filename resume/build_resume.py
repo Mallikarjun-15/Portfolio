@@ -203,6 +203,7 @@ def generate_resume(output_path):
     print(f"Preview saved to {preview_path}")
 
 if __name__ == "__main__":
-    out_dir = r"c:\Users\malli\Desktop\Portfolio\portfolio\resume"
-    out_file = os.path.join(out_dir, "Mallikarjun_Ratkal_Resume.pdf")
-    generate_resume(out_file)
+    for d in [r"c:\Users\malli\Desktop\Portfolio\resume", r"c:\Users\malli\Desktop\Portfolio\portfolio\resume"]:
+        if os.path.exists(d):
+            out_file = os.path.join(d, "Mallikarjun_Ratkal_CV.pdf")
+            generate_resume(out_file)
