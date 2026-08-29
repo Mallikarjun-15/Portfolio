@@ -105,7 +105,7 @@ def generate_resume(output_path):
     story.append(Paragraph(
         '<a href="https://www.linkedin.com/in/mallikarjun-ratkal-7a6123308" color="#000000">LinkedIn</a> &nbsp;|&nbsp; '
         '<a href="https://github.com/Mallikarjun-15" color="#000000">GitHub</a> &nbsp;|&nbsp; '
-        '<a href="https://mallikarjun-15.github.io/" color="#000000">Portfolio</a>',
+        '<a href="https://mallikarjun-15.github.io/Portfolio/" color="#000000">Portfolio</a>',
         links_style
     ))
     
